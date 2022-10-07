@@ -6,8 +6,6 @@ h1{
 	background: rgba(0,150,500,0.5);
 	font-size:   250% ;
 	font-family: 'Quicksand', sans-serif; 
-	margin: 2px;
-	padding:  3px;
 	width:100%;
 	background: -moz-linear-gradient(rgba(0,150,500,0.5), rgba(0,150,500,0.1));
 }
@@ -21,6 +19,7 @@ main{
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background: rgba(180, 190, 200, 0.3);
 	text-align:  center;
+	object-position: center;
 }
 
 footer{
@@ -59,8 +58,9 @@ nav a:hover{
  } 
 
  table{
+	border-collapse:separate;
+    border-spacing:0 100px;
 	width: 100%;
-	margin: 2px;
 	padding:  5px;
  }
 
