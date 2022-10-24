@@ -31,13 +31,14 @@ footer{
 
 nav {
 	font-variant: small-caps;
-	font-size: 150%;
+	font-size: 110%;
 	font-family: 'Quicksand', sans-serif; 
 	text-align:  center;
 }
 
 nav a{
 	display:  inline-block;
+	font-size: 110%;
 	width:  23%;
 	background: rgba(0, 150, 100, .5);
 }
